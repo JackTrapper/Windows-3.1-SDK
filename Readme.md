@@ -1,6 +1,4 @@
-README.SDK
-==========
-
+**Readme.md**
 
 This document covers the following topics:
 
@@ -16,12 +14,12 @@ The following list describes online documents that contain
 important information about the Windows 3.1 SDK that is not
 included in the on-line Windows Help or QuickHelp documentation.
 
-| Document     |          Contents                                                                         |
-|--------------|-------------------------------------------------------------------------------------------|
-| README.WRI   | Additional information about the Windows 3.1 SDK. This file is in Microsoft Write format. |
-| WINDOWS.MD   | Information about changes to WINDOWS.H, including STRICT.                                 |
-| ROBUST.MD    | Information on how to build robust applications.                                          |
-| WINDOWSX.TXT | Information on using the message crackers and control functions in WINDOWSX.H.            |
+| Document    | Contents                                                                                  |
+|-------------|-------------------------------------------------------------------------------------------|
+| README.WRI  | Additional information about the Windows 3.1 SDK. This file is in Microsoft Write format. |
+| Windows.md  | Information about changes to WINDOWS.H, including STRICT.                                 |
+| Robust.md   | Information on how to build robust applications.                                          |
+| WindowsX.md | Information on using the message crackers and control functions in WINDOWSX.H.            |
 
 
 Additional information is available on the following topics:
