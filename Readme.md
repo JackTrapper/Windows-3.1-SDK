@@ -4,14 +4,9 @@ README.SDK
 
 This document covers the following topics:
 
-* A guide to sources of information that complement the
-  Windows 3.1 Software Development Kit (SDK) manuals.
+* A guide to sources of information that complement the Windows 3.1 Software Development Kit (SDK) manuals.
 
-* Instructions for setting your PATH, INCLUDE, and LIB
-  environment variables, and other instructions for
-  configuring your Windows development environment. (The SDK
-  Install program appends this information to this
-  README.SDK file.)
+* Instructions for setting your PATH, INCLUDE, and LIB environment variables, and other instructions for configuring your Windows development environment. (The SDK Install program appends this information to this README.SDK file.)
 
 
 Other Sources Of Information
@@ -21,12 +16,12 @@ The following list describes online documents that contain
 important information about the Windows 3.1 SDK that is not
 included in the on-line Windows Help or QuickHelp documentation.
 
-| Document     |          Contents
-|--------------|---------------------------------------------|
+| Document     |          Contents                                                                         |
+|--------------|-------------------------------------------------------------------------------------------|
 | README.WRI   | Additional information about the Windows 3.1 SDK. This file is in Microsoft Write format. |
-|WINDOWS.TXT   | Information about changes to WINDOWS.H, including STRICT. |
-| ROBUST.TXT   | Information on how to build robust applications. |
-| WINDOWSX.TXT | Information on using the message crackers and control functions in WINDOWSX.H. |
+| WINDOWS.MD   | Information about changes to WINDOWS.H, including STRICT.                                 |
+| ROBUST.MD    | Information on how to build robust applications.                                          |
+| WINDOWSX.TXT | Information on using the message crackers and control functions in WINDOWSX.H.            |
 
 
 Additional information is available on the following topics:
@@ -57,22 +52,17 @@ Windows Development.
 
 Message Crackers and Control APIs
 ---------------------------------
-The Message Crackers and Control APIs were moved from `WINDOWS.H` 
-to `WINDOWSX.H`.  Most known bugs and problems reported from 
-pre-release 2 are fixed in this release of `WINDOWSX.H`. You can
-build generic Windows applications that use Message Crackers and
-Control APIs and which are `STRICT` compliant by using `WINDOWSX.H`
-with the generic sample `MAKEAPP` located in the `SAMPLES`
-subdirectory.
+The Message Crackers and Control APIs were moved from `WINDOWS.H` to `WINDOWSX.H`.  
+Most known bugs and problems reported from pre-release 2 are fixed in this release of `WINDOWSX.H`. 
+You can build generic Windows applications that use Message Crackers and Control APIs 
+and which are `STRICT` compliant by using `WINDOWSX.H` with the generic sample `MAKEAPP` located in the `SAMPLES` subdirectory.
 
 
 Audio Documentation and Software
 --------------------------------
-This release also includes `MMSYSTEM.H` and on-line documentation 
-on how to use the new audio services in Windows 3.1.  The on-line 
-documentation is located in `WIN31MWH.HLP`, `MMPWKBK.HLP`, 
-and `MCISTRWH.HLP` (WinHelp format) or `WIN31QH.HLP`, `MCISTRQH.HLP` 
-(QuickHelp format).
+This release also includes `MMSYSTEM.H` and on-line documentation on how to use the new audio services in Windows 3.1.  
+The on-line documentation is located in `WIN31MWH.HLP`, `MMPWKBK.HLP`, and `MCISTRWH.HLP` (WinHelp format) 
+or `WIN31QH.HLP`, `MCISTRQH.HLP` (QuickHelp format).
 
 
 New Directories
@@ -87,6 +77,7 @@ New Directories
 
 Windows Clipboard Formats
 -------------------------
+
 Specifications for various clipboard formats supported by
 Microsoft and other vendors' applications are available from
 sources described below.

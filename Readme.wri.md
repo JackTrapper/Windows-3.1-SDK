@@ -217,9 +217,9 @@ You should not use Microsoft Dialog Editor (DLGEDIT.EXE) with a 256-color video 
 
 The following list describes other online documents that contain important information about the Windows 3.1 SDK that is not included in the online Microsoft Windows Help or Microsoft QuickHelp documentation.
 
-| Document       | Contents                                                                          |
-|----------------|-----------------------------------------------------------------------------------|
-| WINDOWS.TXT    | Information about changes to WINDOWS.H, including STRICT enhancements.            |
-| ROBUST.TXT     | Information about how to build robust applications.                               |
-| WINDOWSX.TXT   | Information about using the message crackers and control functions in WINDOWSX.H. |
-| README.SDK     | Other sources of information that complement the Windows SDK, and instructions for setting your PATH, INCLUDE, and LIB environment variables.                                           |
+| Document     | Contents                                                                          |
+|--------------|-----------------------------------------------------------------------------------|
+| WINDOWS.MD   | Information about changes to WINDOWS.H, including STRICT enhancements.            |
+| ROBUST.MD    | Information about how to build robust applications.                               |
+| WINDOWSX.MD  | Information about using the message crackers and control functions in WINDOWSX.H. |
+| README.SDK   | Other sources of information that complement the Windows SDK, and instructions for setting your PATH, INCLUDE, and LIB environment variables.                                           |
